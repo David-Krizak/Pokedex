@@ -1,0 +1,15 @@
+body {
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+}
+
+header, main, footer {
+    animation-duration: 1.5s;
+    animation-delay: 0.4s;
+}
+
+.btn-hover:hover {
+    background-color: #0056b3 !important; 
+    color: #ffffff !important;
+    transition: background-color 0.3s ease;
+}
