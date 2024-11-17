@@ -9,7 +9,7 @@ header, main, footer {
 }
 
 .btn-hover:hover {
-    background-color: #0056b3 !important; 
+    background-color: #011020 !important; 
     color: #ffffff !important;
     transition: background-color 0.3s ease;
 }
