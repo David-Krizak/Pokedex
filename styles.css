@@ -1,4 +1,6 @@
 body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5830707282913166) 35%, rgba(0,212,255,1) 100%);
     animation-duration: 1.5s;
     animation-delay: 0.2s;
 }
@@ -19,3 +21,4 @@ img#championImage {
     max-height: 300px; /* Max visina cca 300px dobar za pc screen */
     border-radius: 10%;
 }
+
