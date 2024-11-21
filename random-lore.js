@@ -23,13 +23,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     champName.textContent = `${randomChampion.name} - ${randomChampion.title}`;
     loreImage.src = `${imageBaseUrl}${randomChampion.id}_0.jpg`;
     loreText.textContent = randomChampion.blurb;
-
-    // Fetch abilities
-    const abilityResponse = await fetch(`${abilityUrl}${randomChampion.id}.json`);
-    const abilityData = await abilityResponse.json();
-    const abilities = abilityData.data[randomChampion.id].spells;
-
-    // Combine ability names into a single container
-    const abilitiesText = abilities.map(spell => `${spell.name}: ${spell.description}`).join('\n');
-    extraText.textContent = `Vještine:\n${abilitiesText}`;
 });
