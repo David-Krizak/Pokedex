@@ -5,15 +5,15 @@
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1; /* Place it behind the content */
-    background-color: #0e141f /* Dark background for particle visibility */
+    z-index: -1; 
+    background-color: #0e141f 
 }
 
-/* General Body Styling */
+
 body {
     height: 100vh;
     font-family: Arial, sans-serif;
-    background: transparent; /* Avoid conflicts with particle background */
+    background: transparent; 
 }
 
 .navbar.bg-dark {
