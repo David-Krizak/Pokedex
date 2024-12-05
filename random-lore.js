@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const randomChampion = champions[Math.floor(Math.random() * champions.length)];
     console.log("Random champion selected:", randomChampion);
 
-    // Update page title and content
     document.title = `${randomChampion.name} - Random Lore`;
     champName.textContent = `${randomChampion.name} - ${randomChampion.title}`;
     loreImage.src = `${imageBaseUrl}${randomChampion.id}_0.jpg`;
